@@ -1,0 +1,22 @@
+{
+  "name": "xiaozhu2007-docs",
+  "version": "1.0.0",
+  "description": "Pig2333 Docs: Personal document built with Vitepress",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/xiaozhu2007/docs.git",
+  "author": "甜力怕 <pig2333minecraft@yeah.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.1"
+  },
+  "dependencies": {
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.4",
+    "prettier": "2.6.2"
+  }
+}
