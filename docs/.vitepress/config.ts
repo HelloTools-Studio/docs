@@ -2,12 +2,14 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'PPN Docs',
+  title: 'HelloTools Studio',
+  titleTemplate: '一个小工作室',
   base: '/',
   outDir: '../public',
-  description: "PPN's document built with Vitepress.",
+  description: "HelloTools website built with Vitepress.",
   appearance: true,
   lastUpdated: true,
+  ignoreDeadLinks: true,
   themeConfig: {
     nav: nav(),
     sidebar: {
@@ -15,9 +17,7 @@ export default defineConfig({
       '/blog/': sidebarBlog()
     },
     editLink: {
-      repo: 'xioazhu2007/docs',
-      branch: 'master',
-      dir: 'docs',
+      pattern: 'https://github.com/xiaozhu2007/docs/edit/maater/docs/:path',
       text: 'Edit this page on GitHub'
     },
     socialLinks: [
@@ -47,23 +47,7 @@ function sidebarGuide() {
       text: 'Introduction',
       collapsible: true,
       items: [
-        { text: 'What is PPN?', link: '/guide/what-is-ppn' },
-        { text: 'Getting Started', link: '/guide/getting-started' },
-        { text: 'Configuration', link: '/guide/configuration' }
-      ]
-    },
-    {
-      text: 'Migrations',
-      collapsible: true,
-      items: [
-        {
-          text: 'Migration from SSR',
-          link: '/guide/migration-from-ssr'
-        },
-        {
-          text: 'Migration from PPN 0.x',
-          link: '/guide/migration-from-vitepress-0'
-        }
+        { text: 'What is PPN?', link: '/guide/what-is-ppn' }
       ]
     }
   ]
