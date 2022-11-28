@@ -4,6 +4,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'PPN Docs',
   base: '/',
+  outDir: '../public',
   description: "PPN's document built with Vitepress.",
   appearance: true,
   lastUpdated: true,
