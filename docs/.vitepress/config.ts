@@ -25,7 +25,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present xiaozhu2007'
+      copyright: 'Copyright © 2021-present HelloTools'
     }
   }
 })
@@ -36,7 +36,7 @@ function nav() {
     { text: 'Blog', link: '/blog/introduction', activeMatch: '/blog/' },
     {
       text: 'Changelog',
-      link: 'https://github.com/xiaozhu2007/docs/blob/master/CHANGELOG.md'
+      link: '/'
     }
   ]
 }
