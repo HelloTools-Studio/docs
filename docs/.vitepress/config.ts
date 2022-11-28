@@ -32,7 +32,7 @@ export default defineConfig({
 
 function nav() {
   return [
-    { text: 'Guide', link: '/guide/what-is-ppn', activeMatch: '/guide/' },
+    { text: 'PPN Guide', link: '/guide/what-is-ppn', activeMatch: '/guide/' },
     { text: 'Blog', link: '/blog/introduction', activeMatch: '/blog/' },
     {
       text: 'Changelog',
@@ -47,6 +47,7 @@ function sidebarGuide() {
       text: 'Introduction',
       collapsible: true,
       items: [
+        { text: '免费二级域名', link: '/guide/free-subdomain' },
         { text: 'What is PPN?', link: '/guide/what-is-ppn' }
       ]
     }
@@ -58,10 +59,7 @@ function sidebarBlog() {
     {
       text: 'Blog',
       items: [
-        { text: 'Introduction', link: '/blog/introduction' },
-        { text: 'App Configs', link: '/blog/app-configs' },
-        { text: 'Theme Configs', link: '/blog/theme-configs' },
-        { text: 'Frontmatter Configs', link: '/blog/frontmatter-configs' }
+        { text: 'Introduction', link: '/blog/introduction' }
       ]
     }
   ]
