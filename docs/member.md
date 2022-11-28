@@ -16,8 +16,7 @@ const members = [
     links: [
       { icon: 'github', link: 'https://github.com/xiaozhu2007' }
     ]
-  },
-  ...
+  }
 ]
 </script>
 
