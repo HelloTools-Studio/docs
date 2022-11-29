@@ -1,7 +1,9 @@
 ---
-title: HelloTools 免费二级域名分发
+title: 免费二级域名分发
+titleTemplate: HelloTools Studio
 editLink: true
 ---
+# HelloTools 免费二级域名分发
 
 [[toc]]
 
@@ -38,7 +40,7 @@ editLink: true
 
 ## 申请方法
 
-- 打开[这个网址]()
+- 打开[这个网址](https://docs.qq.com/form/page/DT2hXZHd5eW1HdWJD)
 - 点击右上角的立即登录，使用您的 QQ 或者微信登录
 - 返回继续填表
 - 填表完成后点击提交，稍后（我们未用邮箱联系您之前）您可以修改自己的答案

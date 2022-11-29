@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-CN',
   title: 'HelloTools Studio',
-  titleTemplate: '一个小工作室',
+  titleTemplate: 'HelloTools Studio',
   base: '/',
   outDir: '../public',
   description: "HelloTools website built with Vitepress.",
