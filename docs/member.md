@@ -11,10 +11,18 @@ import {
 const members = [
   {
     avatar: 'https://www.github.com/xiaozhu2007.png',
-    name: 'Liu Zhen',
+    name: '甜力怕',
     title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/xiaozhu2007' }
+    ]
+  },
+    {
+    avatar: 'https://www.github.com/github.png',
+    name: '虚位以待',
+    title: 'It may be you?',
+    links: [
+      { icon: 'github', link: 'https://github.com/' }
     ]
   }
 ]
