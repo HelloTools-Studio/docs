@@ -1,4 +1,5 @@
 # HelloTools website / sub.minecraftserve.cf
+[![OSCS Status](https://www.oscs1024.com/platform/badge/xiaozhu2007/docs.svg?size=small)](#)
 
 ## What is minecraftserve.cf ?
 
@@ -10,3 +11,5 @@
 - Add your subdomain under subdomains.json file.
 - Run `npm install` and `npm run sort` to sort the keys automatic.
 - Send Pull Request.
+
+[![OSCS Status](https://www.oscs1024.com/platform/badge/xiaozhu2007/docs.svg?size=large)](#)

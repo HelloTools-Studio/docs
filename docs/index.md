@@ -23,3 +23,5 @@ features:
   - title: 长链接
     details: 将原本比较短链接变成超级长的链接！
 ---
+
+[![OSCS Status](https://www.oscs1024.com/platform/badge/xiaozhu2007/docs.svg?size=large)](#)
