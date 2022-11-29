@@ -5,7 +5,7 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs",
+    "docs:serve": "vitepress serve docs --port 8080",
     "sort": "sort-json subdomains.json"
   },
   "main": "subdomains.json",

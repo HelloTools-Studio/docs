@@ -6,7 +6,7 @@ export default defineConfig({
   titleTemplate: 'HelloTools Studio Website',
   base: '/',
   outDir: '../public',
-  description: "HelloTools website built with Vitepress.SLA高达98%的国内二级域名托管商, 易用安全 智能查询,快速注册,您可以通过强大的自助平台轻松管理您的二级域名",
+  description: "HelloTools website built with Vitepress. SLA高达95%的国内二级域名托管商,智能查询,快速注册,您可以通过强大的自助平台轻松管理您的二级域名",
   appearance: true,
   lastUpdated: true,
   ignoreDeadLinks: true,

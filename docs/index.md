@@ -19,7 +19,7 @@ features:
   - title: 在线剪贴板
     details: 类似于Pastebin，暂时仅支持文本粘贴，未来可能考虑图片上传
   - title: 知识库
-    details: 一个在线的知识库，完善知识库可以获取**积分**
+    details: 一个在线的知识库，完善知识库可以获取积分
   - title: 长链接
     details: 将原本比较短链接变成超级长的链接！
 ---
