@@ -1,6 +1,5 @@
 ---
 title: 免费二级域名分发
-titleTemplate: HelloTools Studio
 editLink: true
 ---
 # HelloTools 免费二级域名分发

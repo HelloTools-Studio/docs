@@ -5,9 +5,10 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "sort": "sort-json subdomains.json"
   },
-  "main": "index.js",
+  "main": "subdomains.json",
   "repository": "https://github.com/xiaozhu2007/docs.git",
   "author": "甜力怕 <pig2333minecraft@yeah.net>",
   "license": "MIT",
@@ -15,9 +16,11 @@
     "vitepress": "^1.0.0-alpha.29",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.4",
-    "prettier": "2.6.2"
+    "prettier": "2.6.2",
+    "sort-json": "^2.0.1"
   },
   "dependencies": {
-    "vitepress": "^1.0.0-alpha.29"
+    "vitepress": "^1.0.0-alpha.29",
+    "sort-json": "^2.0.1"
   }
 }
