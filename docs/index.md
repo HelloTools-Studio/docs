@@ -3,12 +3,12 @@ layout: home
 
 hero:
   name: HelloTools Studio
-  text: 一个小工作室
-  tagline: 提供一些免费的基础服务
+  text: 提供免费服务
+  tagline: 免费二级域名、临时邮箱和在线剪贴板
   actions:
     - theme: brand
       text: 了解更多
-      link: /guide/free-subdomain
+      link: /free-subdomain/introduction
     - theme: alt
       text: Follow us on GitHub
       link: https://github.com/xiaozhu2007/
@@ -22,6 +22,6 @@ features:
     details: 一个在线的知识库，完善知识库可以获取积分
   - title: 长链接
     details: 将原本比较短链接变成超级长的链接！
+  - title: 临时邮箱
+    details: 请不要用本邮箱接收重要内容，本服务只适用于注册一些不重要的网站，本服务不保证在线率、稳定性和其他技术性或非技术性问题。
 ---
-
-[![OSCS Status](https://www.oscs1024.com/platform/badge/xiaozhu2007/docs.svg?size=large)](#)

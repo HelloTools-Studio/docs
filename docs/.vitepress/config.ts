@@ -13,7 +13,7 @@ export default defineConfig({
   themeConfig: {
     nav: nav(),
     sidebar: {
-      '/guide/': sidebarGuide(),
+      '/free-subdomain/': sidebarFreeSubdomain(),
       '/blog/': sidebarBlog()
     },
     editLink: {
@@ -49,19 +49,35 @@ function nav() {
   ]
 }
 
-function sidebarGuide() {
+function sidebarFreeSubdomain() {
   return [
     {
-      text: 'Introduction',
+      text: '免费二级域名申请',
       collapsible: true,
       items: [
         {
-          text: '免费二级域名',
-          link: '/guide/free-subdomain'
+          text: '为什么使用HelloTools的二级域名分发',
+          link: '/guide/introduction'
         },
         {
-          text: 'What is PPN?',
-          link: '/guide/what-is-ppn'
+          text: '可用域名列表',
+          link: '/guide/domain-list'
+        },
+        {
+          text: '如何获取?',
+          link: '/guide/how2get'
+        },
+        {
+          text: 'Q&A',
+          link: '/guide/qanda'
+        },
+        {
+          text: '官方 QQ 群',
+          link: '/guide/qqgroup'
+        },
+        {
+          text: '更新日志',
+          link: '/guide/changelog'
         }
       ]
     }
