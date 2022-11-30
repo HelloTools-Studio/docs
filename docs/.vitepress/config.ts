@@ -33,11 +33,6 @@ export default defineConfig({
 function nav() {
   return [
     {
-      text: 'PPN Guide',
-      link: '/guide/what-is-ppn',
-      activeMatch: '/guide/'
-    },
-    {
       text: 'Blog',
       link: '/blog/introduction',
       activeMatch: '/blog/'
@@ -57,27 +52,27 @@ function sidebarFreeSubdomain() {
       items: [
         {
           text: '为什么使用HelloTools的二级域名分发',
-          link: '/guide/introduction'
+          link: '/free-subdomain/introduction'
         },
         {
           text: '可用域名列表',
-          link: '/guide/domain-list'
+          link: '/free-subdomain/domain-list'
         },
         {
           text: '如何获取?',
-          link: '/guide/how2get'
+          link: '/free-subdomain/how2get'
         },
         {
           text: 'Q&A',
-          link: '/guide/qanda'
+          link: '/free-subdomain/qanda'
         },
         {
           text: '官方 QQ 群',
-          link: '/guide/qqgroup'
+          link: '/free-subdomain/qqgroup'
         },
         {
           text: '更新日志',
-          link: '/guide/changelog'
+          link: '/free-subdomain/changelog'
         }
       ]
     }
