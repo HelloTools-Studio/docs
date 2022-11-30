@@ -52,11 +52,11 @@ function nav() {
 function sidebarFreeSubdomain() {
   return [
     {
-      text: '免费二级域名申请',
+      text: 'HelloTools Two',
       collapsible: true,
       items: [
         {
-          text: '为什么使用HelloTools的二级域名分发',
+          text: '什么是 HelloTools Two?',
           link: '/free-subdomain/introduction'
         },
         {
@@ -64,7 +64,7 @@ function sidebarFreeSubdomain() {
           link: '/free-subdomain/domain-list'
         },
         {
-          text: '如何获取?',
+          text: '如何使用 HelloTools Two?',
           link: '/free-subdomain/how2get'
         },
         {
