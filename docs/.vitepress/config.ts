@@ -2,11 +2,11 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'HelloTools Studio',
-  titleTemplate: 'HelloTools Studio Website',
+  title: 'HelloTools Cloud',
+  titleTemplate: 'HelloTools Studio',
   base: '/',
   outDir: '../public',
-  description: "HelloTools website built with Vitepress. SLA高达95%的国内二级域名托管商,智能查询,快速注册,您可以通过强大的自助平台轻松管理您的二级域名",
+  description: "HelloTools Cloud - SLA高达95%的国内二级域名托管商,智能查询,快速注册,您可以通过强大的自助平台轻松管理您的二级域名. 免费提供各类软件安装包和安装教程,软件更新和升级;并提供软件安装技术支持,人工在线协助服务.",
   appearance: true,
   lastUpdated: true,
   ignoreDeadLinks: true,
@@ -38,7 +38,12 @@ function nav() {
       activeMatch: '/blog/'
     },
     {
-      text: 'Members',
+      text: '知识库',
+      link: '/klb/introduction',
+      activeMatch: '/klb/'
+    },
+    {
+      text: '项目成员',
       link: '/member'
     }
   ]
@@ -87,6 +92,10 @@ function sidebarBlog() {
         {
           text: 'Introduction',
           link: '/blog/introduction'
+        },
+        {
+          text: '会员套餐介绍',
+          link: '/blog/会员套餐介绍'
         }
       ]
     }
