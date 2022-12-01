@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "vitepress": "^1.0.0-alpha.29",
+    "vue": "^3.2.45",
     "sort-json": "^2.0.1"
   }
 }

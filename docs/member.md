@@ -36,6 +36,15 @@ const coreMembers = [
   }
 ];
 
+const sponsors = [ 
+  {
+    avatar: "https://www.github.com/github.png",
+    name: "Pig2333",
+    title: "我看好你",
+    links: [{ icon: "github", link: "https://github.com/" }]
+  }
+];
+
 const partners = [ 
   {
     avatar: "https://www.github.com/github.png",
@@ -57,6 +66,13 @@ const partners = [
     <template #lead>HelloTools Cloud 的发展的背后是 HelloTools 团队的不懈努力，以下是核心团队成员的个人信息。</template>
     <template #members>
       <VPTeamMembers size="medium" :members="coreMembers" />
+    </template>
+  </VPTeamPageSection>
+  <VPTeamPageSection>
+    <template #title>赞助商</template>
+    <template #lead>在我们的赞助者慷慨的财务支持下，HelloTools Cloud 才得以继续前进。</template>
+    <template #members>
+      <VPTeamMembers size="medium" :members="sponsors" />
     </template>
   </VPTeamPageSection>
   <VPTeamPageSection>
