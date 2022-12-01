@@ -2,6 +2,7 @@
 layout: page
 sidebar: false
 ---
+
 <script setup>
 import {
   VPTeamPage,

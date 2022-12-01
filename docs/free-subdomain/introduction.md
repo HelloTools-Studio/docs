@@ -1,6 +1,7 @@
 ---
 title: 免费二级域名分发
 ---
+
 # HelloTools 免费二级域名分发
 
 ![访问人数统计信息](https://count.getloli.com/get/@xiaozhu2007)
@@ -9,4 +10,4 @@ title: 免费二级域名分发
 
 本站的域名均为**自购~~或者白嫖的~~**，我们承诺每个域名会提供**不少于一年**的服务时间。
 
-您也可以加入我们的QQ群聊一起交流。[戳我入群](/free-subdomain/qqgroup)
+您也可以加入我们的 QQ 群聊一起交流。[戳我入群](/free-subdomain/qqgroup)
