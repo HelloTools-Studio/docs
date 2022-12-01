@@ -77,14 +77,14 @@ const partners = [
     <template #title>赞助商</template>
     <template #lead>在我们的赞助者慷慨的财务支持下，HelloTools Cloud 才得以继续前进。</template>
     <template #members>
-      <VPTeamMembers size="medium" :members="sponsors" />
+      <VPTeamMembers size="small" :members="sponsors" />
     </template>
   </VPTeamPageSection>
   <VPTeamPageSection>
     <template #title>社区伙伴</template>
     <template #lead>一些活跃的社区成员让 HelloTools Cloud 变得更加丰富多彩，团队成员们认为有必要在此特别提及。</template>
     <template #members>
-      <VPTeamMembers size="medium" :members="partners" />
+      <VPTeamMembers size="small" :members="partners" />
     </template>
   </VPTeamPageSection>
 </VPTeamPage>
