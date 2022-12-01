@@ -1,1 +1,1 @@
-# HelloTools knowledge base / HelloTools 知识库
+# HelloTools knowledge base / HelloTools 知识库 <Badge type="warning" text="beta" />

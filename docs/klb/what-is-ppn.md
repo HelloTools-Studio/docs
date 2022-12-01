@@ -1,4 +1,4 @@
-# What is PPN?
+# What is PPN? <Badge type="warning" text="beta" />
 
 PPN is the short name of _Pig Personal Network_.
 
@@ -6,7 +6,7 @@ PPN is the short name of _Pig Personal Network_.
 PPN is currently in `alpha` status. It is already suitable for out-of-the-box use, but the config and theming API may still change between minor releases.
 :::
 
-## Motivation
+## Motivation <Badge type="warning" text="beta" />
 
 We love VuePress v1, but being built on top of Webpack, the time it takes to spin up the dev server for a simple doc site with a few pages is just becoming unbearable. Even HMR updates can take up to seconds to reflect in the browser!
 
