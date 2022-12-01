@@ -58,6 +58,7 @@ const partners = [
     <template #members>
       <VPTeamMembers size="medium" :members="coreMembers" />
     </template>
+  </VPTeamPageSection>
   <VPTeamPageSection>
     <template #title>社区伙伴</template>
     <template #lead>一些活跃的社区成员让 HelloTools Cloud 变得更加丰富多彩，团队成员们认为有必要在此特别提及。</template>
