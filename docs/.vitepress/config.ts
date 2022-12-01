@@ -11,14 +11,11 @@ export default defineConfig({
   lastUpdated: true,
   ignoreDeadLinks: true,
   themeConfig: {
-    nav: nav(),
-    sidebar: {
-      '/free-subdomain/': sidebarFreeSubdomain(),
-      '/blog/': sidebarBlog()
-    },
+    nav: nav,
+    sidebar: sidebar,
     editLink: {
       pattern: 'https://github.com/xiaozhu2007/docs/edit/maater/docs/:path',
-      text: 'Edit this page on GitHub'
+      text: '在 Github 上编辑此页'
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xiaozhu2007/docs' }
@@ -30,27 +27,30 @@ export default defineConfig({
   }
 })
 
-function nav() {
-  return [
-    {
-      text: 'Blog',
-      link: '/blog/introduction',
-      activeMatch: '/blog/'
-    },
-    {
-      text: '知识库',
-      link: '/klb/introduction',
-      activeMatch: '/klb/'
-    },
-    {
-      text: '项目成员',
-      link: '/member'
-    }
-  ]
-}
+const nav = [
+  {
+    text: 'Blog',
+    link: '/blog/introduction',
+    activeMatch: '/blog/'
+  },
+  {
+    text: '知识库',
+    link: '/klb/introduction',
+    activeMatch: '/klb/'
+  },
+  {
+    text: '关于',
+    activeMatch: `^/about/`,
+    items: [
+      { text: '会员', link: '/about/会员套餐介绍' },
+      { text: '团队', link: '/about/member' },
+      { text: '赞助', link: '/sponsor' },
+    ]
+  }
+]
 
-function sidebarFreeSubdomain() {
-  return [
+const sidebar = {
+  '/free-subdomain/': [
     {
       text: 'HelloTools Two',
       collapsible: true,
@@ -81,11 +81,8 @@ function sidebarFreeSubdomain() {
         }
       ]
     }
-  ]
-}
-
-function sidebarBlog() {
-  return [
+  ],
+  '/blog/': [
     {
       text: 'Blog',
       items: [
