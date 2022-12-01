@@ -11,8 +11,8 @@ export default defineConfig({
   lastUpdated: true,
   ignoreDeadLinks: true,
   themeConfig: {
-    nav: nav(),
-    sidebar: sidebars(),
+    nav: nav,
+    sidebar: sidebar,
     editLink: {
       pattern: 'https://github.com/xiaozhu2007/docs/edit/maater/docs/:path',
       text: '在 Github 上编辑此页'
@@ -27,73 +27,72 @@ export default defineConfig({
   }
 })
 
-function nav() {
-  return [
+const nav = [
+  {
+    text: 'Blog',
+    link: '/blog/introduction',
+    activeMatch: '/blog/'
+  },
+  {
+    text: '知识库',
+    link: '/klb/introduction',
+    activeMatch: '/klb/'
+  },
+  {
+    text: '关于',
+    activeMatch: `^/about/`,
+    items: [
+      { text: '会员', link: '/about/会员套餐介绍' },
+      { text: '团队', link: '/about/member' },
+      { text: '赞助', link: '/sponsor' },
+    ]
+  }
+]
+
+const sidebar = {
+  '/free-subdomain/': [
     {
-      text: '知识库',
-      link: '/klb/introduction',
-      activeMatch: '/klb/'
-    },
-    {
-      text: '关于',
-      activeMatch: `^/about/`,
+      text: 'HelloTools Two',
+      collapsible: true,
       items: [
-        { text: '会员', link: '/about/会员套餐介绍' },
-        { text: '团队', link: '/about/member' },
-        { text: '赞助', link: '/sponsor' },
+        {
+          text: '什么是 HelloTools Two?',
+          link: '/free-subdomain/introduction'
+        },
+        {
+          text: '可用域名列表',
+          link: '/free-subdomain/domain-list'
+        },
+        {
+          text: '如何使用 HelloTools Two?',
+          link: '/free-subdomain/how2get'
+        },
+        {
+          text: 'Q&A',
+          link: '/free-subdomain/qanda'
+        },
+        {
+          text: '官方 QQ 群',
+          link: '/free-subdomain/qqgroup'
+        },
+        {
+          text: '更新日志',
+          link: '/free-subdomain/changelog'
+        }
       ]
     }
-  ]
-
-}
-function sidebars() {
-  return [
+  ],
+  '/blog/': [
     {
-      '/free-subdomain/': [
+      text: 'Blog',
+      items: [
         {
-          text: 'HelloTools Two',
-          collapsible: true,
-          items: [
-            {
-              text: '什么是 HelloTools Two?',
-              link: '/free-subdomain/introduction'
-            },
-            {
-              text: '可用域名列表',
-              link: '/free-subdomain/domain-list'
-            },
-            {
-              text: '如何使用 HelloTools Two?',
-              link: '/free-subdomain/how2get'
-            },
-            {
-              text: 'Q&A',
-              link: '/free-subdomain/qanda'
-            },
-            {
-              text: '官方 QQ 群',
-              link: '/free-subdomain/qqgroup'
-            },
-            {
-              text: '更新日志',
-              link: '/free-subdomain/changelog'
-            }
-          ]
-        }
-      ],
-      '/blog/': [
+          text: 'Introduction',
+          link: '/blog/introduction'
+        },
         {
-          text: 'Blog',
-          items: [
-            {
-              text: 'Introduction',
-              link: '/blog/introduction'
-            },
-            {
-              text: '会员套餐介绍',
-              link: '/blog/会员套餐介绍'
-            }
-          ]
+          text: '会员套餐介绍',
+          link: '/blog/会员套餐介绍'
         }
       ]
     }
