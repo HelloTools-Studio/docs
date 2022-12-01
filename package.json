@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "HelloTools website built with Vitepress",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
+    "docs:dev": "vitepress dev docs --host",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs --port 8080",
+    "docs:preview": "vitepress preview docs",
     "sort": "sort-json subdomains.json"
   },
   "main": "subdomains.json",

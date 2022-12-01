@@ -4,28 +4,32 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'HelloTools Cloud',
   titleTemplate: 'HelloTools Studio',
+  head: [
+    ['link', { rel: "shortcut icon", href: "/favicon.ico", type: "image/x-icon" }]
+  ],
   base: '/',
-  outDir: '../public',
   description: "HelloTools Cloud - SLA高达95%的国内二级域名托管商,智能查询,快速注册,您可以通过强大的自助平台轻松管理您的二级域名. 免费提供各类软件安装包和安装教程,软件更新和升级;并提供软件安装技术支持,人工在线协助服务.",
   appearance: true,
-  lastUpdated: true,
-  ignoreDeadLinks: true,
+  lastUpdated: false,
   themeConfig: {
+    logo: '/logo.png',
     nav: nav(),
     sidebar: {
       '/free-subdomain/': sidebarFreeSubdomain(),
-      '/blog/': sidebarBlog()
+      '/about/': sidebarAbout()
     },
+    /*
     editLink: {
       pattern: 'https://github.com/xiaozhu2007/docs/edit/maater/docs/:path',
       text: 'Edit this page on GitHub'
     },
+    */
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xiaozhu2007/docs' }
     ],
     footer: {
       message: 'Released under the WTFPL License.',
-      copyright: 'Copyright © 2021-present HelloTools'
+      copyright: 'Copyright © 2021-present HelloTools Studio'
     }
   }
 })
@@ -39,12 +43,13 @@ function nav() {
     },
     {
       text: '知识库',
-      link: '/klb/introduction',
+      link: '/klb/index',
       activeMatch: '/klb/'
     },
     {
-      text: '项目成员',
-      link: '/member'
+      text: '关于',
+      link: '/about/introduction',
+      activeMatch: '/about/'
     }
   ]
 }
@@ -84,18 +89,22 @@ function sidebarFreeSubdomain() {
   ]
 }
 
-function sidebarBlog() {
+function sidebarAbout() {
   return [
     {
-      text: 'Blog',
+      text: '关于',
       items: [
         {
           text: 'Introduction',
-          link: '/blog/introduction'
+          link: '/about/introduction'
         },
         {
           text: '会员套餐介绍',
-          link: '/blog/会员套餐介绍'
+          link: '/about/会员套餐介绍'
+        },
+        {
+          text: '团队成员',
+          link: '/about/member'
         }
       ]
     }

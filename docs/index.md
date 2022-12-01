@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: HelloTools Studio
-  text: 提供免费服务
+  name: HelloTools Cloud
+  text: 提供一些免费服务
   tagline: 免费二级域名、临时邮箱和在线剪贴板
   actions:
     - theme: brand
@@ -11,7 +11,7 @@ hero:
       link: /free-subdomain/introduction
     - theme: alt
       text: Follow us on GitHub
-      link: https://github.com/xiaozhu2007/
+      link: https://github.com/HelloTools-Studios
 
 features:
   - title: 免费二级域名分发
@@ -23,5 +23,5 @@ features:
   - title: 长链接
     details: 将原本比较短链接变成超级长的链接！
   - title: 临时邮箱
-    details: 请不要用本邮箱接收重要内容，本服务只适用于注册一些不重要的网站，本服务不保证在线率、稳定性和其他技术性或非技术性问题。
+    details: 请不要用本邮箱接收重要内容，本服务只适用于注册一些不重要的网站。
 ---

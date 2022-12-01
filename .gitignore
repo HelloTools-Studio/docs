@@ -105,3 +105,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# VSC
+.vscode
+
+# Inject JavaScript
+.github/inject.js
