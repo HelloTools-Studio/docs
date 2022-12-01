@@ -9,13 +9,7 @@ import {
   VPTeamPageSection
 } from "vitepress/theme";
 
-/**
- * @param {avatar} String
- * @param {name} String
- * @param {title} String
- * @param {links} Array
- * @return {coreMembers} Array
- */
+
 const coreMembers = [
   {
     avatar: "https://www.github.com/xiaozhu2007.png",
@@ -46,11 +40,6 @@ const coreMembers = [
 /**
  * 对于常量 sponsors 来说，`title`属性指的是留言的内容
  * 
- * @param {avatar} String
- * @param {name} String
- * @param {title} String
- * @param {links} Array
- * @return {sponsors} Array
  */
 const sponsors = [ 
   {
@@ -61,13 +50,6 @@ const sponsors = [
   }
 ];
 
-/**
- * @param {avatar} String
- * @param {name} String
- * @param {title} String
- * @param {links} Array
- * @return {parters} Array
- */
 const partners = [ 
   {
     avatar: "https://www.github.com/github.png",
