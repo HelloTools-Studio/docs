@@ -41,9 +41,9 @@ export default defineConfig({
 function nav() {
   return [
     {
-      text: 'Blog',
-      link: '/blog/introduction',
-      activeMatch: '/blog/'
+      text: 'HelloTools Two',
+      link: '/free-domain/introduction',
+      activeMatch: '/free-domain/'
     },
     {
       text: '知识库',
