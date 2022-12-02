@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   base: '/',
   description:
-    'HelloTools Cloud - SLA高达95%的国内二级域名托管商,智能查询,快速注册,您可以通过强大的自助平台轻松管理您的二级域名. 免费提供各类软件安装包和安装教程,软件更新和升级;并提供软件安装技术支持,人工在线协助服务.',
+    'HelloTools Cloud - SLA高达95%的国内二级域名托管商,智能查询,快速注册,您可以通过强大的自助平台轻松管理您的二级域名. 免费提供各类软件安装包和安装教程,软件更新和升级;并提供技术支持,人工在线协助服务.',
   appearance: true,
   lastUpdated: false,
   themeConfig: {
@@ -42,8 +42,8 @@ function nav() {
   return [
     {
       text: 'HelloTools Two',
-      link: '/free-domain/introduction',
-      activeMatch: '/free-domain/'
+      link: '/free-subdomain/introduction',
+      activeMatch: '/free-subdomain/'
     },
     {
       text: '知识库',
