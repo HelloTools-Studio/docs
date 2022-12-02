@@ -5,11 +5,10 @@
 
             <div class="form">
                 <form class="box" id="revue-form" name="revue-form" method="post"
-                    action="https://www.getrevue.co/profile/vuenewsletter/add_subscriber" rel="noopener" target="_blank"
+                    action="/" rel="noopener" target="_blank"
                     netlify>
                     <input class="input" id="member_email" name="member[email]" type="email" placeholder="邮箱地址"
                         required />
-
                     <div class="action">
                         <input class="button" id="member_submit" name="member[subscribe]" type="submit" value="订阅" />
                     </div>

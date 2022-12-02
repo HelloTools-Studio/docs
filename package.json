@@ -6,23 +6,22 @@
     "docs:dev": "vitepress dev docs --host",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs --port 8080",
-    "docs:preview": "vitepress preview docs",
-    "sort": "sort-json subdomains.json"
+    "docs:preview": "vitepress preview docs"
   },
-  "main": "subdomains.json",
+  "main": "",
   "repository": "https://github.com/xiaozhu2007/docs.git",
   "author": "甜力怕 <pig2333minecraft@yeah.net>",
   "license": "MIT",
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.29",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.4",
     "prettier": "2.6.2",
-    "sort-json": "^2.0.1"
+    "sort-json": "^2.0.1",
+    "vitepress": "^1.0.0-alpha.29"
   },
   "dependencies": {
+    "vite": "^3.2.4",
     "vitepress": "^1.0.0-alpha.29",
-    "vue": "^3.2.45",
-    "sort-json": "^2.0.1"
+    "vue": "^3.2.45"
   }
 }
