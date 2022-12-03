@@ -37,7 +37,31 @@ export default defineConfig({
   lastUpdated: false,
   themeConfig: {
     logo: '/logo.png',
-    nav: nav(),
+    nav: [
+      {
+        text: 'Guide',
+        link: '/guide'
+      },
+      {
+        text: 'HelloTools Two',
+        link: '/free-subdomain/introduction',
+        activeMatch: '/free-subdomain/'
+      },
+      {
+        text: '知识库',
+        link: '/klb/index',
+        activeMatch: '/klb/'
+      },
+      {
+        text: '关于',
+        items: [
+          { text: '团队介绍', link: '/about/introduction' },
+          { text: '帮助我们', link: '/about/introduction#help-us' },
+          { text: '团队成员', link: '/about/member' },
+          { text: '支持我们', link: '/about/sponsor' }
+        ]
+      }
+    ],
     sidebar: {
       '/free-subdomain/': sidebarFreeSubdomain(),
       '/about/': sidebarAbout()
@@ -46,6 +70,8 @@ export default defineConfig({
       pattern: 'https://github.com/xiaozhu2007/docs/edit/master/docs/:path',
       text: '在 Github 上编辑此页面'
     },
+    outline: 'deep',
+    outlineTitle: '目录',
     socialLinks: [
       /*
       {
@@ -69,35 +95,19 @@ export default defineConfig({
         icon: {
           svg: '<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M18.9,10.9h-6v-6c0-0.6-0.4-1-1-1s-1,0.4-1,1v6h-6c-0.6,0-1,0.4-1,1s0.4,1,1,1h6v6c0,0.6,0.4,1,1,1s1-0.4,1-1v-6h6c0.6,0,1-0.4,1-1S19.5,10.9,18.9,10.9z" /></svg>'
         },
-        link: '/about/help-us'
+        link: '/about/introduction#help-us'
       }
     ],
     footer: {
       message: 'Released under the WTFPL License.',
       copyright: 'Copyright © 2021-present HelloTools Studio'
+    },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
     }
   }
 })
-
-function nav() {
-  return [
-    {
-      text: 'HelloTools Two',
-      link: '/free-subdomain/introduction',
-      activeMatch: '/free-subdomain/'
-    },
-    {
-      text: '知识库',
-      link: '/klb/index',
-      activeMatch: '/klb/'
-    },
-    {
-      text: '关于',
-      activeMatch: '/about/',
-      link: '/about/introduction'
-    }
-  ]
-}
 
 function sidebarFreeSubdomain() {
   return [

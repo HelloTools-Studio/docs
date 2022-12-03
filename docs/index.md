@@ -23,7 +23,12 @@ features:
   - icon: 🧧
     title: 广告位
     details: 支持跳转，详情请点击此卡片
-    link: /about/ads
+    link: /about/introduction#ads
+
+  - icon: 🧧
+    title: 广告位
+    details: 支持跳转，详情请点击此卡片
+    link: /about/introduction#ads
 
   - icon: 🧧
     title: 广告位
