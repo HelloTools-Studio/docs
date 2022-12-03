@@ -14,10 +14,19 @@ hero:
       link: https://github.com/HelloTools-Studios
 
 features:
-  - title: 免费二级域名分发
+  - icon: ⚡️
+    title: 免费二级域名分发
     details: 本站提供免费二级域名用于测试、学习等，请勿将二级域名用于一切非法用途，一切责任自负！
-  - title: 知识库
-    details: 一个在线的知识库，完善知识库可以获取积分
-  - title: 长链接
-    details: 将原本比较短链接变成超级长的链接！
+    link: /free-subdomain/introduction
+    linktext: 立即查看
+
+  - icon: 🧧
+    title: 广告位
+    details: 支持跳转，详情请点击此卡片
+    link: /about/ads
+
+  - icon: 🧧
+    title: 广告位
+    details: 支持跳转，详情请点击此卡片
+    link: https://www.bilibili.com/video/BV1uT4y1P7CX/?from=yeeee.ml&rickroll=1
 ---

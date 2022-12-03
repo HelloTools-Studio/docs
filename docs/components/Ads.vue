@@ -3,7 +3,7 @@ import { onMounted } from 'vue'
 onMounted(() => {
   const s = document.createElement('script')
   s.async = true
-  s.src = `/js/makemoney.js`
+  s.src = `/js/ads.js`
   document.querySelector('.ads-container')!.appendChild(s)
 })
 </script>
