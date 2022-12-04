@@ -11,7 +11,7 @@ hero:
       link: /free-subdomain/introduction
     - theme: alt
       text: Follow us on GitHub
-      link: https://github.com/HelloTools-Studios
+      link: https://github.com/HelloTools-Studio
 
 features:
   - icon: ⚡️
