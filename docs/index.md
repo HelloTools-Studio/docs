@@ -20,10 +20,10 @@ features:
     link: /free-subdomain/introduction
     linktext: 立即查看
 
-  - icon: 🧧
-    title: 广告位
-    details: 支持跳转，详情请点击此卡片
-    link: /about/introduction#ads
+  - icon: 🎁
+    title: 在线免费二级域名分发
+    details: 没有SSL和防CC，请各位轻一点😂
+    link: http://dns.cyfan.ga/
 
   - icon: 🧧
     title: 广告位
