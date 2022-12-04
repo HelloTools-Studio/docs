@@ -28,7 +28,7 @@ features:
   - icon: 🧧
     title: 广告位
     details: 支持跳转，详情请点击此卡片
-    link: /about/introduction#ads
+    link: https://www.bilibili.com/video/BV1uT4y1P7CX/?from=yeeee.ml&rickroll=1
 
   - icon: 🧧
     title: 广告位
