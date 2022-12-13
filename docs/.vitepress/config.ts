@@ -12,7 +12,7 @@ export default defineConfig({
   head: [
     [
       'link',
-      { rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon' }
+      { rel: 'shortcut icon', href: '/logo.png' }
     ],
     ['meta',
       {
@@ -98,7 +98,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the WTFPL License.',
-      copyright: 'Copyright © 2021-present HelloTools Studio'
+      copyright: 'Copyright © 2021-2023 HelloTools Studio'
     },
     docFooter: {
       prev: '上一页',
