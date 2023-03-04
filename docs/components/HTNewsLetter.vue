@@ -4,11 +4,12 @@
             <h2 class="title">订阅我们的新闻</h2>
 
             <div class="form">
-                <form class="box" id="revue-form" name="revue-form" rel="noopener" netlify>
-                    <input class="input" id="member_email" name="member[email]" type="email" placeholder="邮箱地址"
-                        required />
+                <form class="box" id="newsletter-form" name="newsletter-form" rel="noopener" netlify-honeypot="sb"
+                    data-netlify="true">
+                    <input class="input" id="member_email" name="sub-email" type="email" placeholder="邮箱地址" required />
+                    <input style="visibility: hidden;" name="sb" />
                     <div class="action">
-                        <input class="button" id="member_submit" name="member[subscribe]" type="submit" value="订阅" />
+                        <input class="button" id="member_submit" name="subscribe" type="submit" value="订阅" />
                     </div>
                 </form>
             </div>
