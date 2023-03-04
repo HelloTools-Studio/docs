@@ -1,12 +1,10 @@
 <template>
     <section id="newsletter" class="NewsLetter">
         <div class="container">
-            <h2 class="title">订阅我们的每周新闻。</h2>
+            <h2 class="title">订阅我们的新闻</h2>
 
             <div class="form">
-                <form class="box" id="revue-form" name="revue-form" method="post"
-                    action="/" rel="noopener" target="_blank"
-                    netlify>
+                <form class="box" id="revue-form" name="revue-form" rel="noopener" netlify>
                     <input class="input" id="member_email" name="member[email]" type="email" placeholder="邮箱地址"
                         required />
                     <div class="action">
@@ -14,16 +12,6 @@
                     </div>
                 </form>
             </div>
-
-            <p class="help">
-                你可以在
-                <a class="link" href="https://news.vuejs.org/">news.vuejs.org
-                </a> 阅读之前的期刊并收听我们的播客。你也可以在
-                <a class="link" href="https://twitter.com/vuejs">BiliBili
-                </a> 上关注我们，或加入我们的
-                <a class="link" href="https://chat.vuejs.org/">KOOK
-                </a> 了解更多。
-            </p>
         </div>
     </section>
 </template>
@@ -84,7 +72,8 @@
 }
 
 .input {
-    border: 1px solid var(--vt-c-divider);
+    /* border: 1px solid var(--vt-c-divider); */
+    border: 2px solid grey;
     border-radius: 8px;
     padding: 11px 128px 11px 16px;
     font-size: 16px;

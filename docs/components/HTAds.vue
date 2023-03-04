@@ -2,28 +2,14 @@
 import { onMounted } from 'vue'
 onMounted(() => {
   const s = document.createElement('script')
-  s.async = true
-  s.src = `/js/ads.js`
+  s.crossOrigin = "anonymous"
+  s.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1596042186115709`
   document.querySelector('.ads-container')!.appendChild(s)
 })
 </script>
 
 <template>
-  <div class="ads-container">
-    <div class="ads-cn ads-vertical" data-id="53"></div>
-  </div>
+  <!-- xiaozhu2007-error -->
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1596042186115709" data-ad-slot="1680950975"
+    data-ad-format="auto" data-full-width-responsive="true"></ins>
 </template>
-
-<style>
-.ads-container {
-  padding: 1px 15px 10px;
-  margin-top: 20px;
-  background-color: var(--vt-c-bg-soft);
-}
-.ads-vertical {
-  background-color: transparent !important;
-}
-.ads-text {
-  color: var(--vt-c-text-2) !important;
-}
-</style>

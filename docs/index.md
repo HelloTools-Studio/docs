@@ -37,9 +37,15 @@ features:
 
 ---
 
-<br />
+<script setup>
+import HTNewsLetter from './components/HTNewsLetter.vue'
+</script>
+
+<HTNewsLetter />
 <div align=center>
-  <h3>广告位</h3>
+  <b>广告位</b>
   <br />
   <img src="/img/ad-RETE.svg" />
 </div>
+
+

@@ -56,7 +56,6 @@ export default defineConfig({
         text: 'About',
         items: [
           { text: '团队介绍', link: '/about/introduction' },
-          { text: '帮助我们', link: '/about/introduction#help-us' },
           { text: '团队成员', link: '/about/member' },
           { text: '支持我们', link: '/about/sponsor' }
         ]
