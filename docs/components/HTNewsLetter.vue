@@ -4,8 +4,8 @@
             <h2 class="title">订阅我们的新闻</h2>
 
             <div class="form">
-                <form class="box" id="newsletter-form" name="newsletter-form" rel="noopener" netlify-honeypot="sb"
-                    data-netlify="true">
+                <form class="box" id="newsletter-form" name="newsletter-form" action="/" rel="noopener"
+                    netlify-honeypot="sb" data-netlify="true">
                     <input class="input" id="member_email" name="sub-email" type="email" placeholder="邮箱地址" required />
                     <input style="visibility: hidden;" name="sb" />
                     <div class="action">
