@@ -4,7 +4,7 @@ layout: home
 hero:
   name: HelloTools Cloud
   text: 提供一些免费服务
-  tagline: 免费二级域名、临时邮箱和在线剪贴板
+  tagline: 免费二级域名、免费Warp+密钥
   actions:
     - theme: brand
       text: 了解更多
@@ -25,15 +25,10 @@ features:
     details: 支持跳转，详情请点击此卡片
     link: https://www.bilibili.com/video/BV1uT4y1P7CX/?from=yeeee.ml&rickroll=1
 
-  - icon: 🧧
-    title: 广告位
-    details: 支持跳转，详情请点击此卡片
-    link: https://www.bilibili.com/video/BV1uT4y1P7CX/?from=yeeee.ml&rickroll=1
-
-  - icon: 💊
-    title: 在线咨询
-    details: DaoVoice
-    link: http://chat.daovoice.io?id=b40915e3
+  - icon: FREE
+    title: 免费 WARP+ 密钥
+    details: 加入TG群组 @warp520
+    link: https://t.me/warp520
 
 ---
 
