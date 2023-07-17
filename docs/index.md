@@ -25,7 +25,7 @@ features:
     details: 支持跳转，详情请点击此卡片
     link: https://www.bilibili.com/video/BV1uT4y1P7CX/?from=yeeee.ml&rickroll=1
 
-  - icon: FREE
+  - icon: 🎁
     title: 免费 WARP+ 密钥
     details: 加入TG群组 @warp520
     link: https://t.me/warp520
