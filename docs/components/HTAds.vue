@@ -9,7 +9,6 @@ onMounted(() => {
 </script>
 
 <template>
-  <!-- xiaozhu2007-error -->
   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1596042186115709" data-ad-slot="1680950975"
     data-ad-format="auto" data-full-width-responsive="true"></ins>
 </template>
