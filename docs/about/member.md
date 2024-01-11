@@ -15,7 +15,7 @@ import {
 const coreMembers = [
   {
     "avatar": "/img/member-xiaozhu2007.png",
-    "name": "Zhen Liu",
+    "name": "HackPig520",
     "title": "Creator",
     "org": "HelloTools",
     "desc": "万恶之源(bushi",
@@ -39,6 +39,7 @@ const coreMembers = [
     "avatar": "/img/member-vmstatus.png",
     "name": "vmstatus",
     "title": "Member",
+    "desc": "未知去向",
     "links": [{ "icon": "github", "link": "https://github.com/vmstatus" }]
   }
 ];
@@ -59,11 +60,11 @@ const sponsors = [
 
 const partners = [ 
     {
-    avatar: "https://www.github.com/kaiheila.png",
-    name: "KOOK(原开黑啦)",
-    title: "一个好用的语音沟通工具",
-    "desc": "无广告、不掉线、低占用、不延迟",
-    links: [{ icon: "github", link: "https://github.com/kaiheila" }]
+    avatar: "https://www.github.com/wling-art.png",
+    name: "ZL Server",
+    title: "钟乐服务器",
+    "desc": "一个好玩的服务器",
+    links: [{ icon: "github", link: "https://github.com/wling-art" }]
   },
     {
     avatar: "https://store-g1.seewo.com/enweb/images/share@256.png",
