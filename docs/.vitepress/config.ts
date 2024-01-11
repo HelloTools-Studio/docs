@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 /**
  * 墙裂建议大家打开自动换行，否则您会感受到“1行SVG，滑动半小时”的快乐
  * 
- * VSCode的打开快捷方式是 Alt+Z
+ * VSCode 的打开快捷方式是 Alt+Z
  */
 export default defineConfig({
   lang: 'zh-CN',
@@ -25,13 +25,6 @@ export default defineConfig({
       {
         name: 'twitter:image',
         content: 'img/logo.png'
-      }
-    ],
-    [
-      'link',
-      {
-        rel: 'preconnect',
-        href: 'https://www.cyfan.ga/'
       }
     ],
   ],
