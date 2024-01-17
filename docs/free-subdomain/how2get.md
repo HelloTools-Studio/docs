@@ -15,7 +15,13 @@ title: 如何获取
 
 ## 申请方法(人工审核) {#normal}
 
-- 打开[这个网址](https://docs.qq.com/form/page/DT2hXZHd5eW1HdWJD)
-- 点击右上角的立即登录，使用您的 QQ 或者微信登录
-- 返回继续填表
-- 填表完成后点击提交，稍后（我们未用邮箱联系您之前）您可以修改自己的答案
+1. 按以下格式写好申请
+2. 发送邮件到 `admin@hellotools.eu.org` 邮件内容为申请 邮件标题可不填
+
+申请格式：
+```txt
+Domain: [要申请的域名, 带上主域(如 asb.hellotools.eu.org)]
+Type: [记录类型]
+Record: [记录值]
+Email: [邮箱]
+```
