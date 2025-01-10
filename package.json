@@ -13,7 +13,7 @@
   "repository": "https://github.com/xiaozhu2007/docs.git",
   "license": "MIT",
   "devDependencies": {
-    "markdown-it": "^13.0.1",
+    "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
     "prettier": "^2.6.2",
     "sort-json": "^2.0.1",
