@@ -4,7 +4,7 @@ layout: home
 hero:
   name: HelloTools Cloud
   text: 提供一些免费服务
-  tagline: 免费二级域名、免费Warp+密钥
+  tagline: 专注网络安全和免费服务
   actions:
     - theme: brand
       text: 了解更多
@@ -37,10 +37,3 @@ import HTNewsLetter from './components/HTNewsLetter.vue'
 </script>
 
 <HTNewsLetter />
-<div align=center>
-  <b>广告位</b>
-  <br />
-  <img src="/img/ad-RETE.svg" />
-</div>
-
-
