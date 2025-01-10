@@ -20,7 +20,7 @@
     "vitepress": "^1.0.0-alpha.36"
   },
   "dependencies": {
-    "vite": "^3.2.4",
+    "vite": "^6.0.7",
     "vitepress": "^1.0.0-rc.36",
     "vue": "^3.4.0",
     "artalk": "2.7.3"
