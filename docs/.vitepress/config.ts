@@ -47,7 +47,8 @@ export default defineConfig({
     ],
     sidebar: {
       '/free-subdomain/': sidebarFreeSubdomain(),
-      '/about/': sidebarAbout()
+      '/about/': sidebarAbout(),
+      '/global/': sidebarGlobal()
     },
     editLink: {
       pattern: 'https://github.com/HelloTools-Studio/docs/edit/master/docs/:path',
@@ -119,6 +120,29 @@ function sidebarFreeSubdomain() {
         {
           text: '更新日志',
           link: '/free-subdomain/changelog'
+        }
+      ]
+    }
+  ]
+}
+
+function sidebarGlobal() {
+  return [
+    {
+      text: 'Global / 国际站',
+      collapsible: true,
+      items: [
+        {
+          text: '国际站介绍',
+          link: '/global/introduction'
+        },
+        {
+          text: 'Matrix',
+          link: '/global/matrix'
+        },
+        {
+          text: 'Misskey',
+          link: '/global/misskey'
         }
       ]
     }
