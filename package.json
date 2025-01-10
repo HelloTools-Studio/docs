@@ -10,7 +10,7 @@
   },
   "main": "",
   "type": "module",
-  "repository": "https://github.com/xiaozhu2007/docs.git",
+  "repository": "https://github.com/HelloTools-Studio/docs.git",
   "license": "MIT",
   "devDependencies": {
     "markdown-it": "^14.1.0",
