@@ -1,10 +1,5 @@
 import { defineConfig } from 'vitepress'
 
-/**
- * 墙裂建议大家打开自动换行，否则您会感受到“1行SVG，滑动半小时”的快乐
- * 
- * VSCode 的打开快捷方式是 Alt+Z
- */
 export default defineConfig({
   lang: 'zh-CN',
   title: 'HelloTools Cloud',
@@ -42,10 +37,6 @@ export default defineConfig({
         activeMatch: '/free-subdomain/'
       },
       {
-        text: 'Blog',
-        link: 'https://blog.yeeee.ml'
-      },
-      {
         text: 'About',
         items: [
           { text: '团队介绍', link: '/about/introduction' },
@@ -59,7 +50,7 @@ export default defineConfig({
       '/about/': sidebarAbout()
     },
     editLink: {
-      pattern: 'https://github.com/xiaozhu2007/docs/edit/master/docs/:path',
+      pattern: 'https://github.com/HelloTools-Studio/docs/edit/master/docs/:path',
       text: '在 Github 上编辑此页面'
     },
     outline: 'deep',
@@ -90,7 +81,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the WTFPL License.',
-      copyright: 'Copyright © 2021-2023 HelloTools Studio'
+      copyright: 'Copyright © 2021-2025 HelloTools Studio'
     },
     docFooter: {
       prev: '上一页',
