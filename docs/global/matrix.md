@@ -12,6 +12,8 @@ Matrix 的目标是提供一个去中心化的、安全的通信平台，支持�
 
 我们的实例将于上线后显示在下方，您可以使用 [Element](https://app.element.io/#/) 等软件登录/注册使用
 
+请使用 `213891.xyz` 作为 HomeServer 登陆或注册，如果被要求出示注册验证码，请联系 [@liuzhen932:213891.xyz](https://matrix.to/#/@liuzhen932:213891.xyz)
+
 ## 滥用举报 (Abuse Report)
 
 请加入以下群聊提交举报：
