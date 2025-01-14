@@ -37,6 +37,16 @@ export default defineConfig({
         activeMatch: '/free-subdomain/'
       },
       {
+        text: 'Global 国际站',
+        link: '/global/introduction',
+        activeMatch: '/global/'
+      },
+      {
+        text: '图床',
+        link: '/image-hosting/introduction',
+        activeMatch: '/image-hosting/'
+      },
+      {
         text: 'About',
         items: [
           { text: '团队介绍', link: '/about/introduction' },
